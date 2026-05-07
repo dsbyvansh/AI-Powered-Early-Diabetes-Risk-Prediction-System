@@ -28,9 +28,9 @@ Week 1, Day 2 — IN PROGRESS
 - [x] Common columns identified (157)
 - [x] merged_df created (2.38M rows, 158 cols)
 - [x] Survey_year column added
-- [ ] Target variable (DIABETE3) mapped and cleaned
-- [ ] Missing value analysis
-- [ ] Feature selection
+- [x] Target variable (DIABETE3) mapped and cleaned
+- [x] Missing value analysis
+- [x] Feature selection
 
 ## 8-Week Roadmap
 - Week 1: Problem definition + data collection + initial inspection ← IN PROGRESS
