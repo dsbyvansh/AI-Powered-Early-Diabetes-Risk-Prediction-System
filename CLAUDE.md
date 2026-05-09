@@ -15,7 +15,8 @@ CDC BRFSS dataset (~250K rows, 21 features) from Kaggle (Alex Teboul).
 - Help debug approach, not just code
 
 ## Current Status
-Week 1, Day 2 — IN PROGRESS
+Week 2, Day 4 — COMPLETED ✅
+Week 2, Day 5 — Starting next (EDA continued + Correlation Heatmap + Statistical Analysis)
 
 ## Completed So Far
 - [x] Project folder structure created
@@ -31,6 +32,12 @@ Week 1, Day 2 — IN PROGRESS
 - [x] Target variable (DIABETE3) mapped and cleaned
 - [x] Missing value analysis
 - [x] Feature selection
+- [x] Univariate analysis (BMI distribution)
+- [x] Bivariate analysis (BMI, Exercise, Physical Health vs Diabetes)
+- [x] Outlier detection and removal (BMI > 60)
+- [x] Sentinel value handling during EDA (EXERANY2, PHYSHLTH)
+- [x] Zero-inflation identified in PHYSHLTH
+- [x] Plots saved to reports/
 
 ## 8-Week Roadmap
 - Week 1: Problem definition + data collection + initial inspection ← IN PROGRESS
