@@ -51,6 +51,13 @@ Week 5, Day 10 — Starting next (Deep Learning begins)
 - [x] SVM skipped — computationally infeasible on 2M rows
 - [x] Threshold tuning complete — final threshold=0.40
 - [x] SMOTE skipped — class_weight='balanced' sufficient at this scale
+- [x] Neural network built (TF/Keras) — ROC-AUC=0.807
+- [x] ML vs DL comparison complete — XGBoost wins
+- [x] All models saved to models/
+- [x] SHAP summary + waterfall plots generated
+- [x] PNEUVAC3 removed — reverse causality confirmed by SHAP
+- [x] XGBoost retrained on 34 features — ROC-AUC=0.808
+- [x] Final model saved: models/xgboost_final.pkl
 
 ## Dataset
 - Final shape: 2,018,571 rows, 36 cols
