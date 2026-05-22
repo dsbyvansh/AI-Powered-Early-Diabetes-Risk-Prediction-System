@@ -43,8 +43,8 @@ EXERANY2 → "Did you exercise in the past 30 days?" (yes/no) ✅
 DRNKANY5 → "Have you had any alcohol in the past 30 days?" (yes/no) ✅
 ALCDAY5 → "How many days did you drink alcohol in the past 30 days?" ✅
 _SMOKER3 → "What is your smoking status?" (current/former/never) ✅
-_CHLDCNT → "How many children are in your household?"
-HLTHPLN1 → "Do you have health insurance?" (yes/no)
+_CHLDCNT → "How many children are in your household?" ✅
+HLTHPLN1 → "Do you have health insurance?" (yes/no)  
 MEDCOST → "In the past year, did you avoid doctor due to cost?" (yes/no)
 PERSDOC2 → "Do you have a personal doctor?" (yes/no)
 CHECKUP1 → "When was your last routine checkup?" (dropdown)
@@ -53,14 +53,21 @@ medical history (yes/no questions):
 
 CVDINFR4 → "Have you ever had a heart attack?"
 CVDCRHD4 → "Have you ever had coronary heart disease?"
+
 CVDSTRK3 → "Have you ever had a stroke?"
+
 CHCKIDNY → "Have you ever had kidney disease?"
+
 HAVARTH3 → "Have you ever had arthritis?"
+_DRDXAR1 → "Have you ever been diagnosed with arthritis by a doctor?"
+
 ADDEPEV2 → "Have you ever had depression?"
+
 CHCOCNCR → "Have you ever had skin cancer?"
 CHCSCNCR → "Have you ever had any other cancer?"
+
 _ASTHMS1 → "What is your asthma status?" (never/former/current)
-_DRDXAR1 → "Have you ever been diagnosed with arthritis by a doctor?"
+
 HIVTST6 → "Have you ever been tested for HIV?"
 
 calculated/derived:
