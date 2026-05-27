@@ -1,12 +1,12 @@
-# AI Health Risk Prediction System
-
-This project predicts early risk of lifestyle diseases using Machine Learning and Deep Learning.
-
+# Diabetes Risk Prediction System 
+## Overview (your elevator pitch)
+## Key Features
 ## Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- TensorFlow/PyTorch
-- Streamlit/Flask
-
-## Status
+## Project Structure (folder tree)
+## Dataset
+## Methodology (8-week roadmap summary)
+## Model Performance
+## How to Run
+## Limitations
+## Future Improvements
+## Author
