@@ -43,11 +43,12 @@ with st.sidebar:
 
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load('C:/Users/Vansh/Desktop/Diabetes risk prediction/models/xgboost_final.pkl')
-    preprocessor = joblib.load('C:/Users/Vansh/Desktop/Diabetes risk prediction/models/preprocessor.pkl')
-    return model,preprocessor
+    model = joblib.load('models/xgboost_final.pkl')
+    preprocessor = joblib.load('models/preprocessor.pkl')
+    explainer = shap.TreeExplainer(model)
+    return model,preprocessor,explainer
 
-model,preprocessor = load_artifacts()
+model,preprocessor,explainer = load_artifacts()
 
 
 def map_to_age_band(age):
@@ -401,7 +402,6 @@ if st.session_state['page'] == 'form':
                 risk_emoji = "🔴"
 
         #SHAP Calculation
-        explainer = shap.TreeExplainer(model)
         shap_values = explainer.shap_values(input_scaled)
 
         #Top 3 contributing features
