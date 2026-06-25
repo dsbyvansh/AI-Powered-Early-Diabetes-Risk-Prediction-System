@@ -59,7 +59,7 @@
 ## How to Run
 ### 1) Clone the repo
 ```
-git clone https://github.com/dsbyvansh/AI-Powered-Early-Diabetes-Risk-Prediction-Explainable-Health-Intelligence-System.git
+git clone https://github.com/dsbyvansh/AI-Powered-Early-Diabetes-Risk-Prediction-System.git
 cd Project
 ```
 
@@ -74,38 +74,15 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### 4) Download the dataset
-1) Download CDC BRFSS 2011-2015 from Kaggle.
-2) Place the five yearly CSVs inside `data/raw/`:
-    - 2011.csv
-    - 2012.csv
-    - 2013.csv
-    - 2014.csv
-    - 2015.csv
-
-### 5) Run the notebooks in order
-Open the notebooks under `notebooks/` and run cells in this order:
-1) `initial_inspection.ipynb`
-2) `preprocessing.ipynb`
-3) `feature_selection.ipynb`
-4) `eda.ipynb`
-5) `statistical_analysis.ipynb`
-6) `model_training.ipynb`
-7) `deep_learning.ipynb`
-8) `explainability.ipynb`
+### 4) Launch the Streamlit app
+```
+streamlit run app/app.py
+```
 
 Note: some notebooks use absolute file paths. If you move the project folder,
 update those paths inside the notebooks.
 
 Notebook policy: outputs are cleared before final pushes for clean diffs.
-
-### 6) Launch the Streamlit app
-```
-streamlit run app/app.py
-```
-
-Note: the app currently loads the model and preprocessor using absolute paths.
-If you move the project folder, update the paths inside `app/app.py`.
 
 ## Limitations
 - Trained on 2011-2015 BRFSS data; results may drift on newer populations.
