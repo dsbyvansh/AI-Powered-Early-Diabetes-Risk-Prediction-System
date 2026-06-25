@@ -1,7 +1,10 @@
 # AI Powered Diabetes Risk Prediction System 
 
+## Live Demo:
+Link: https://ai-powered-early-diabetes-risk-c3bw.onrender.com
+
 ## Overview
-***An end to end AI powered Diabetes ~~Diagnosis~~ risk prediction system , It uses a form based approach to take the users data and predicts their risk of diabetes by using the BRFSS 2011-2015 data consisting of 2M+ CDC survey responses***
+**An end to end AI powered Diabetes ~~Diagnosis~~ risk prediction system , It uses a form based approach to take the users data and predicts their risk of diabetes by using the BRFSS 2011-2015 data consisting of 2M+ CDC survey responses**
 
 ## Key Features
 1) System built on the data of 2M+ real people
@@ -30,7 +33,11 @@
     - model
     - explainability
 - problem_statement.md
-- README.md
+- readme.md
+- .python-version
+- render.yaml
+- requirements.txt
+- requirements-dev.text
 
 ## Dataset
 - Source: CDC BRFSS 2011-2015 (Kaggle)
@@ -39,7 +46,7 @@
 - Train: 1,614,856 rows | Test: 403,715 rows 
 - Class balance: 84% no diabetes, 16% diabetes
 
-## Methodology (8-week roadmap summary)
+## Methodology (4-week roadmap summary)
 - Week 1: Problem definition + data collection + Feature engineering + preprocessing pipeline
 - Week 2: EDA + statistical analysis + Train and compare ML models + Deep learning model + Explainable AI + error analysis
 - Week 3: Web app (Streamlit)
@@ -56,25 +63,26 @@
 | SVM | N/A | N/A | Skipped — too slow on 2M rows |
 | Neural Network | 0.807 | 0.83 | Close but XGBoost wins on tabular |
 
-## How to Run
-### 1) Clone the repo
+## How to Run it locally
+
+1) Clone the repo
 ```
 git clone https://github.com/dsbyvansh/AI-Powered-Early-Diabetes-Risk-Prediction-System.git
 cd AI-Powered-Early-Diabetes-Risk-Prediction-System
 ```
 
-### 2) Create and activate a virtual environment
+2) Create and activate a virtual environment
 ```
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### 3) Install dependencies
+3) Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-### 4) Launch the Streamlit app
+4) Launch the Streamlit app
 ```
 streamlit run app/app.py
 ```
