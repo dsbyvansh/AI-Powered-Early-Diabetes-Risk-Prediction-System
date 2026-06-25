@@ -43,8 +43,8 @@ with st.sidebar:
 
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load('C:/Users/Vansh/Desktop/Project/models/xgboost_final.pkl')
-    preprocessor = joblib.load('C:/Users/Vansh/Desktop/Project/models/preprocessor.pkl')
+    model = joblib.load('C:/Users/Vansh/Desktop/Diabetes risk prediction/models/xgboost_final.pkl')
+    preprocessor = joblib.load('C:/Users/Vansh/Desktop/Diabetes risk prediction/models/preprocessor.pkl')
     return model,preprocessor
 
 model,preprocessor = load_artifacts()
