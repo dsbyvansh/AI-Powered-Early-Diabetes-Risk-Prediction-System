@@ -60,7 +60,7 @@
 ### 1) Clone the repo
 ```
 git clone https://github.com/dsbyvansh/AI-Powered-Early-Diabetes-Risk-Prediction-System.git
-cd Project
+cd AI-Powered-Early-Diabetes-Risk-Prediction-System
 ```
 
 ### 2) Create and activate a virtual environment
@@ -97,4 +97,4 @@ Notebook policy: outputs are cleared before final pushes for clean diffs.
 - Add basic automated tests.
 
 ## Author
-Author: [dsbyvansh](https://github.com/dsbyvansh) | [X](https://x.com/pywithvansh)
+Author: [dsbyvansh](https://github.com/dsbyvansh) | [X](https://x.com/pywithvansh) | [LinkedIn](https://www.linkedin.com/in/vansh-hardwani-b416a8323/)
